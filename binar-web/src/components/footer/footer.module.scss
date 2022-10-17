@@ -1,0 +1,47 @@
+.scroll {
+  background: '../../assets/scroll-down.svg';
+  background-repeat: no-repeat;
+  width: 3%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+  transform-origin: bottom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  padding-top: 10%;
+}
+.text {
+  position: absolute;
+  margin-bottom: 3em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+  transform-origin: bottom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,52 @@
+.textHero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.btn {
+    width: 20%;
+    background-color: orange;
+    border-style: none;
+    height: 8vh;
+    margin-bottom: 13%;
+    font-size: 1em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.btn  {
+    text-decoration: none;
+    color: black;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    color: red;
+}
+.logoPlay {
+    width: 5%;
+}

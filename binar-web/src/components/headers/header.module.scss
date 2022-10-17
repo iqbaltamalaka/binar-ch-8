@@ -1,0 +1,32 @@
+.logo {
+    display: flex;
+    margin-left: 5%;
+    height: 8vh;
+}
+.nav {
+    height: 90px;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: aliceblue;
+}
+.linkHome a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px;
+}
+.linkHome a:active{
+    color: red;
+}
+.linkLogin a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px;
+}
+.linkLogin a:active{
+    color: red;
+}
